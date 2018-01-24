@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 
 class TweetForm extends Component {
-  constructor(props) {
-    super(props);
-    // this.handleSubmit = this.handleSubmit.bind(this);
+  constructor() {
+    super();
   }
-  // handleSubmit(e) {
-  // }
   render() {
     return (
-      <div className="tweet-form">
-      </div>
+      <form className="tweet-form">
+        {/* Render some text here */}
+      </form>
     );
   }
 }
