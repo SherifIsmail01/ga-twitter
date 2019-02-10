@@ -1,17 +1,17 @@
-.twitter {
-  text-align: center;
-}
+
 
 .twitter-logo {
   animation: twitter-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.twitter-header {
+.jumbotron {
+  background: twitter-logo-spin infinite 20s linear;
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .twitter-title {
@@ -26,3 +26,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.new-tweet-btn {
+  right: 10px;
+  position: absolute;
+}
+
+.tweets-container {
+  left: 0px;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+
+
+
+

@@ -4,5 +4,8 @@ import './index.css';
 import Twitter from './Twitter';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Twitter />, document.getElementById('root'));
+ReactDOM.render(
+	<Twitter />,
+	 document.getElementById('root')
+);
 registerServiceWorker();

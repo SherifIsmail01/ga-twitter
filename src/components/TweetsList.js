@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import Tweet from './Tweet.js'
 
 class TweetsList extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
+
   render() {
     return (
-      <div className="tweets-list">
-        {/* Render some text here */}
+      <div className="container">
+        <div className="tweets-list">
+            { this.props.displayTweets.map(function(eachTweet) { 
+              return <Tweet author={eachTweet.author} text={eachTweet.text} /> } 
+              )}
+        </div>
       </div>
     );
   }
